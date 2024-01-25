@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Kuba\\Desktop\\cpp practice\\Music-Player\\Music-Player\\Music-Player.csproj",
+      "projectUniqueName": "D:\\Kuba\\Desktop\\Music-Player\\Music-Player\\Music-Player.csproj",
       "projectName": "Music-Player",
-      "projectPath": "D:\\Kuba\\Desktop\\cpp practice\\Music-Player\\Music-Player\\Music-Player.csproj",
+      "projectPath": "D:\\Kuba\\Desktop\\Music-Player\\Music-Player\\Music-Player.csproj",
       "packagesPath": "C:\\Users\\Kuba\\.nuget\\packages\\",
-      "outputPath": "D:\\Kuba\\Desktop\\cpp practice\\Music-Player\\Music-Player\\obj\\",
+      "outputPath": "D:\\Kuba\\Desktop\\Music-Player\\Music-Player\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kuba\\AppData\\Roaming\\NuGet\\NuGet.Config",

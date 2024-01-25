@@ -12,6 +12,7 @@
             <RowDefinition Height="120"/>
         </Grid.RowDefinitions>
 
+        <!--Buttons-->
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
@@ -21,16 +22,22 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
 
-            <Button Grid.Column="0"/>
+            <!--Buttons for music control-->
+            <Button Grid.Column="0" Margin="10"/>
             <TextBlock Grid.Column="0" Text="LOAD" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Button Grid.Column="1"/>
+
+            <Button Grid.Column="1" Margin="10"/>
             <TextBlock Grid.Column="1" Text="PLAY" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Button Grid.Column="2"/>
+
+            <Button Grid.Column="2" Margin="10"/>
             <TextBlock Grid.Column="2" Text="RESUME" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Button Grid.Column="3"/>
+            
+            <Button Grid.Column="3" Margin="10"/>
             <TextBlock Grid.Column="3" Text="STOP" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            <Button Grid.Column="4"/>
+
+            <Button Grid.Column="4" Margin="10"/>
             <TextBlock Grid.Column="4" Text="EXIT" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            
         </Grid>
     </Grid>
 </Window>
