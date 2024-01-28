@@ -19,13 +19,12 @@ using System.Windows.Shapes;
 namespace Music_Player
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Main program for plpaying Tracks
     /// </summary>
     public partial class MainWindow : Window
     {
 
         private MediaPlayer player;
-        private TimeSpan trackPos;
         public MainWindow()
         {
             InitializeComponent();
@@ -52,6 +51,7 @@ namespace Music_Player
 
         private void stopTrack(object sender, RoutedEventArgs e)
         {
+            player.Stop();
         }
 
         private void pauseTrack(object sender, RoutedEventArgs e)

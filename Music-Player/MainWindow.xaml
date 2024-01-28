@@ -30,7 +30,7 @@
             <Button Grid.Column="1" Margin="10" Click="playTrack"/>
             <TextBlock Grid.Column="1" Text="PLAY" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-            <Button Grid.Column="2" Margin="10" Click="resumeTrack"/>
+            <Button Grid.Column="2" Margin="10" Click="stopTrack"/>
             <TextBlock Grid.Column="2" Text="STOP" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
             <Button Grid.Column="3" Margin="10" Click="pauseTrack"/>
