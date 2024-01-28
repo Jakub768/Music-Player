@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+
         <Grid.RowDefinitions>
             <RowDefinition/>
             <RowDefinition Height="120"/>
@@ -23,21 +24,23 @@
             </Grid.ColumnDefinitions>
 
             <!--Buttons for music control-->
-            <Button Grid.Column="0" Margin="10"/>
+            <Button Grid.Column="0" Margin="10" Click="loadFile"/>
             <TextBlock Grid.Column="0" Text="LOAD" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-            <Button Grid.Column="1" Margin="10"/>
+            <Button Grid.Column="1" Margin="10" Click="playTrack"/>
             <TextBlock Grid.Column="1" Text="PLAY" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-            <Button Grid.Column="2" Margin="10"/>
-            <TextBlock Grid.Column="2" Text="RESUME" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            
-            <Button Grid.Column="3" Margin="10"/>
-            <TextBlock Grid.Column="3" Text="STOP" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <Button Grid.Column="2" Margin="10" Click="resumeTrack"/>
+            <TextBlock Grid.Column="2" Text="STOP" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 
-            <Button Grid.Column="4" Margin="10"/>
+            <Button Grid.Column="3" Margin="10" Click="pauseTrack"/>
+            <TextBlock Grid.Column="3" Text="PAUSE" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+            <Button Grid.Column="4" Margin="10" Click="Exit"/>
             <TextBlock Grid.Column="4" Text="EXIT" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-            
+
         </Grid>
+
+        <TextBlock Name="Filename" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="50"/>
     </Grid>
 </Window>
